@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MaRyket - Order Page</title>
+</head>
+<body>
+    <header>
+        <h1>Order Product</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <div id="orderBox">
+            <img id="productImage" src="img/product_0.webp" alt="Product Image">
+            <h3 id="productName">Name: </h3>
+            <h3 id="productCost">Cost: Rp</h3>
+            <h3 id="productDescription">Description: </h3>
+            <hr>
+            <h4>Are you sure you want to order this product?</h4>
+            <button onclick="confirm()">Yes</button>
+            <button onclick="cancel()">Cancel</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 MaRyket - Mr.Ryto 132</p>
+    </footer>
+    <script src="js/order.js"></script>
+</body>
+</html>
